@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    padding: 10px;
+  }
+  
+  .cardImage {
+    text-align: center;
+  
+  
+  }
+  
+  .image {
+    /* max-width: 100%; */
+    height: 11rem;
+    width: 15rem;
+    object-fit: cover;
+  }
+  
+  .cardData {
+    padding: 10px;
+  }
+  
+  .Name {
+    margin: 0;
+  }
+  
+  .lowerData {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .buttonOne {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 106px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .cartSection {
+    flex: 1;
+  }
+  
+  .cartSection h2 {
+    margin-bottom: 10px;
+   
+  } 
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardItem {
+  border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    padding: 10px;
+    /* font-size: 1.5rem; */
+  }
+  
+  .cardItem img {
+
+    height: 11rem;
+    width: 15rem;
+    object-fit: cover;
+  }
+  .itemCont{
+    display: flex;
+    gap: 1.5rem;
+    height: 50vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(197, 197, 197);     */
+  }
