@@ -1,10 +1,11 @@
 import "./App.css";
-import MainPage from "./pages/MainPage";
+import Super from "./components/practice react/destructring props/pages/main";
+// import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <div>
-      <MainPage />
+      <Super />
     </div>
   );
 }
